@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    sans-serif;
+  background: rgba(137, 43, 226, 0.377);
+}
+
+ul {
+  list-style: none;
+}
+
+#root {
+  width: 300px;
+  border-color: black;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 18px 10px 12px rgb(0 0 0 / 14%),
+    0 18px 10px -1px rgb(0 0 0 / 20%);
+  margin: 0 auto;
+  margin-top: 150px;
+  background-color: white;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-color: transparent;
+  margin-right: 10px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 2px 1px -1px rgb(0 0 0 / 12%);
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(76, 78, 245, 0.74);
+}
