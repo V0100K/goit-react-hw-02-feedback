@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import Feedback from "./components/feedback";
+import Feedback from "./components/Feedback";
 
 const App = () => {
   return (
